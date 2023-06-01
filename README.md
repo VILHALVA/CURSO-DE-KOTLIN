@@ -9,23 +9,21 @@
 <img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2017/08/kotlin-a-nova-linguagem-oficial-para-desenvolvimento-android.png" align="center" width="250"> <br>
 
 # REQUESITOS:
-* ✅[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-ALGORITMO)
-* ✅[USAR A IDE ONLINE](https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS44LjIxIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoicGFja2FnZSBvcmcua290bGlubGFuZy5wbGF5IFxuXG5mdW4gbWFpbigpIHtcbiAgIFxufSJ9)
+* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-ALGORITMO)
+* 💻[USAR A IDE ONLINE](https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS44LjIxIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoicGFja2FnZSBvcmcua290bGlubGFuZy5wbGF5IFxuXG5mdW4gbWFpbigpIHtcbiAgIFxufSJ9)
 
 # [FUNDAMENTOS](https://www.youtube.com/playlist?list=PLmcyA-BbqsvJnOZoGNHPMF1dCBq0m6Qzg)
-* ✅ Variáveis simples
-* ✅ Operadores Aritméticos, Logicos e Relacionais
-* ✅ Estruturas condicionais
-* ✅ Estruturas de repetição
-* ✅ Variaveis compostas (Arrays)
-* ✅ Collections Arrays, Set e Map
-* ✅ Funções
-* ✅ Class POO
-* ✅ Herança POO
-* ✅ Construtores POO
-* ✅ Uso de Interface
-* ✅ Tratamento de Exceções
-* ✅ BÔNUS: Entrada de Dados (INPUT)
-
-
+* ✅ VARIÁVEIS SIMPLES
+* ✅ OPERADORES ARITMÉTICOS, LOGICOS E RELACIONAIS
+* ✅ ESTRUTURAS CONDICIONAIS
+* ✅ ESTRUTURAS DE REPETIÇÃO
+* ✅ VARIAVEIS COMPOSTAS (ARRAYS)
+* ✅ COLLECTIONS ARRAYS, SET E MAP
+* ✅ FUNÇÕES
+* ✅ CLASS POO
+* ✅ HERANÇA POO
+* ✅ CONSTRUTORES POO
+* ✅ USO DE INTERFACE
+* ✅ TRATAMENTO DE EXCEÇÕES
+* ✅ BÔNUS: ENTRADA DE DADOS (INPUT)
 
