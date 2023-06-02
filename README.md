@@ -6,7 +6,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://kotlinlang.org/docs/home.html)
 [![GitHub Repo stars](https://img.shields.io/badge/CURSO-COMPRETO-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLmcyA-BbqsvJnOZoGNHPMF1dCBq0m6Qzg) <br>
 
-<img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2017/08/kotlin-a-nova-linguagem-oficial-para-desenvolvimento-android.png" align="center" width="250"> <br>
+<img src="https://jaki-jezyk-programowania.pl/img/technologies/kotlin.png" align="center" width="250"> <br>
 
 # REQUESITOS:
 * 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-ALGORITMO)
