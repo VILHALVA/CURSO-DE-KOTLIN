@@ -28,6 +28,16 @@
 * ✅ BÔNUS: ENTRADA DE DADOS (INPUT)
 
 ![](https://i.imgur.com/waxVImv.png)
+# 👀VISÃO PANORÂMICA:
+| PERGUNTA | RESPOSTA |
+| :---: | :---: |
+| DATA DE CRIAÇÃO | 2009 |
+| NOME DO CRIADOR | Equipe de desenvolvedores da JetBrains, liderada por Dmitry Jemerov e Andrey Breslav. | 
+| SIGNIFICADO DO NOME | O nome "Kotlin" foi inspirado na ilha russa de Kotlin, próxima à cidade de São Petersburgo, onde a JetBrains tem sua sede. O nome foi escolhido para refletir a localização geográfica da equipe de desenvolvimento do Kotlin. |
+| É BASEADA NO | JAVA |
+| EXTENÇÃO DO ARQUIVO | .kt |
+| É MAIS USADA | Criação de Apps para Android |
+
 # 🤳SINTAXE DA LINGUAGEM:
 ## 1) VARIAVEIS SIMPLES:
 Em Kotlin, as variáveis simples são declaradas usando a palavra-chave "var" para variáveis mutáveis (que podem ter seu valor alterado) ou "val" para variáveis imutáveis (que têm um valor atribuído e não podem ser alteradas posteriormente). Aqui está um exemplo de declaração de variáveis simples em Kotlin:
