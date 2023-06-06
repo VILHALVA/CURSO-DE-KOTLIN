@@ -38,6 +38,13 @@
 | EXTENÇÃO DO ARQUIVO | .kt |
 | É MAIS USADA | Criação de Apps para Android |
 
+* O Kotlin foi criado por uma equipe de desenvolvedores da JetBrains, liderada por Dmitry Jemerov e Andrey Breslav. A linguagem foi anunciada publicamente em 2011, mas seu desenvolvimento começou alguns anos antes, em 2009.
+* O nome "Kotlin" foi inspirado na ilha russa de Kotlin, próxima à cidade de São Petersburgo, onde a JetBrains tem sua sede. O nome foi escolhido para refletir a localização geográfica da equipe de desenvolvimento do Kotlin.
+* O Kotlin é uma linguagem de programação moderna e concisa que foi projetada para interoperar perfeitamente com o Java. Ela foi desenvolvida com o objetivo de melhorar a produtividade dos desenvolvedores e oferecer uma alternativa mais segura, expressiva e eficiente ao Java.
+* O Kotlin é mais usado no desenvolvimento de aplicativos Android. Em 2017, o Google anunciou o suporte oficial ao Kotlin como uma linguagem de programação para o desenvolvimento de aplicativos Android, o que impulsionou ainda mais sua popularidade nesse campo. Desde então, muitos desenvolvedores têm adotado o Kotlin como a linguagem preferida para criar aplicativos Android devido à sua sintaxe limpa, recursos modernos e interoperabilidade com o Java.
+* Além do desenvolvimento Android, o Kotlin também pode ser usado no desenvolvimento de aplicativos de servidor, desenvolvimento web com frameworks como o Spring Boot, criação de ferramentas de linha de comando e até mesmo no desenvolvimento de aplicações desktop com bibliotecas como o TornadoFX.
+* Em resumo, o Kotlin é uma linguagem de programação moderna, segura e concisa, criada pela JetBrains. Ela é amplamente utilizada no desenvolvimento de aplicativos Android, mas também pode ser empregada em outros contextos de desenvolvimento de software.
+
 # 🤳SINTAXE DA LINGUAGEM:
 ## 1) VARIAVEIS SIMPLES:
 Em Kotlin, as variáveis simples são declaradas usando a palavra-chave "var" para variáveis mutáveis (que podem ter seu valor alterado) ou "val" para variáveis imutáveis (que têm um valor atribuído e não podem ser alteradas posteriormente). Aqui está um exemplo de declaração de variáveis simples em Kotlin:
