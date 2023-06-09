@@ -46,6 +46,59 @@
 * Em resumo, o Kotlin é uma linguagem de programação moderna, segura e concisa, criada pela JetBrains. Ela é amplamente utilizada no desenvolvimento de aplicativos Android, mas também pode ser empregada em outros contextos de desenvolvimento de software.
 
 # 🤳SINTAXE DA LINGUAGEM:
+## 0) FUNDAMENTOS:
+Aqui está um exemplo de código em Kotlin que utiliza os operadores aritméticos, relacionais e lógicos com tipos primitivos:
+```kotlin
+fun main() {
+    val a: Int = 10
+    val b: Int = 5
+
+    // Operadores aritméticos
+    val soma = a + b
+    val subtracao = a - b
+    val multiplicacao = a * b
+    val divisao = a / b
+    val resto = a % b
+
+    // Operadores relacionais
+    val maior = a > b
+    val menor = a < b
+    val igual = a == b
+    val diferente = a != b
+    val maiorOuIgual = a >= b
+    val menorOuIgual = a <= b
+
+    // Operadores lógicos
+    val and = maior && menor
+    val or = maior || menor
+    val not = !maior
+
+    // Imprimindo os resultados
+    println("Operadores Aritméticos:")
+    println("Soma: $soma")
+    println("Subtração: $subtracao")
+    println("Multiplicação: $multiplicacao")
+    println("Divisão: $divisao")
+    println("Resto: $resto")
+
+    println("\nOperadores Relacionais:")
+    println("Maior: $maior")
+    println("Menor: $menor")
+    println("Igual: $igual")
+    println("Diferente: $diferente")
+    println("Maior ou Igual: $maiorOuIgual")
+    println("Menor ou Igual: $menorOuIgual")
+
+    println("\nOperadores Lógicos:")
+    println("AND: $and")
+    println("OR: $or")
+    println("NOT: $not")
+}
+```
+Neste exemplo, utilizamos duas variáveis `a` e `b` do tipo `Int`. Os operadores aritméticos realizam as operações básicas de soma, subtração, multiplicação, divisão e resto da divisão. Os operadores relacionais comparam os valores das variáveis, retornando um valor booleano. E os operadores lógicos realizam operações de conjunção (`&&`), disjunção (`||`) e negação (`!`).
+
+Ao executar o código, ele irá imprimir os resultados de cada operação na saída.
+
 ## 1) VARIAVEIS SIMPLES:
 Em Kotlin, as variáveis simples são declaradas usando a palavra-chave "var" para variáveis mutáveis (que podem ter seu valor alterado) ou "val" para variáveis imutáveis (que têm um valor atribuído e não podem ser alteradas posteriormente). Aqui está um exemplo de declaração de variáveis simples em Kotlin:
 ````kotlin
@@ -62,9 +115,55 @@ fun main() {
 ````
 Nesse exemplo, declaramos uma variável mutável chamada "idade" do tipo "Int" e atribuímos a ela o valor inicial de 25. Em seguida, alteramos seu valor para 30. No caso de variáveis mutáveis, podemos reatribuir um novo valor a elas conforme necessário. Também declaramos uma variável imutável chamada "nome" do tipo "String" e atribuímos a ela o valor "João". As variáveis imutáveis não podem ter seu valor alterado depois de atribuído, o que torna seu valor constante. Note que em Kotlin, o tipo das variáveis pode ser inferido automaticamente pelo compilador com base no valor atribuído. No exemplo acima, fornecemos a anotação de tipo explicitamente para fins de clareza, mas poderíamos omiti-la e deixar o compilador inferir o tipo da variável. As variáveis em Kotlin também suportam o recurso de interpolação de string, que permite incorporar valores de variáveis diretamente em uma string usando o caractere "$". Isso é demonstrado no exemplo acima, onde imprimimos os valores das variáveis "idade" e "nome" na saída.
 
-## 2) ESTRUTURA CONDICIONAL:
-Em Kotlin, a estrutura condicional é semelhante a outras linguagens de programação, como Java. Existem duas principais estruturas condicionais: "if-else" e "when". 
-### 1) ESTRUTURA IF-ELSE:
+Em Kotlin, para realizar a entrada de dados pelo usuário, podemos utilizar a função `readLine()`. Essa função lê uma linha de texto digitada pelo usuário e retorna uma string. Para converter essa string em um tipo específico, como um número inteiro ou decimal, podemos utilizar as funções de conversão disponíveis.
+
+Aqui está um exemplo de como realizar a entrada de dados em Kotlin:
+```kotlin
+fun main() {
+    // Entrada de um número inteiro
+    print("Digite um número inteiro: ")
+    val numeroInteiro = readLine()?.toIntOrNull()
+    if (numeroInteiro != null) {
+        println("Você digitou o número inteiro: $numeroInteiro")
+    } 
+    else {
+        println("Entrada inválida. Certifique-se de digitar um número inteiro.")
+    }
+
+    // Entrada de um número decimal
+    print("Digite um número decimal: ")
+    val numeroDecimal = readLine()?.toDoubleOrNull()
+    if (numeroDecimal != null) {
+        println("Você digitou o número decimal: $numeroDecimal")
+    } 
+    else {
+        println("Entrada inválida. Certifique-se de digitar um número decimal.")
+    }
+
+    // Entrada de uma string
+    print("Digite seu nome: ")
+    val nome = readLine()
+    println("Olá, $nome!")
+
+    // Entrada de um caractere
+    print("Digite um caractere: ")
+    val caractere = readLine()?.getOrNull(0)
+    if (caractere != null) {
+        println("Você digitou o caractere: $caractere")
+    } 
+    else {
+        println("Entrada inválida. Certifique-se de digitar um caractere.")
+    }
+}
+````
+Neste exemplo, utilizamos a função `readLine()` para realizar a leitura da entrada do usuário. Em seguida, utilizamos as funções de conversão `toIntOrNull()`, `toDoubleOrNull()` e `getOrNull()` para converter a string de entrada para os tipos desejados.
+
+É importante notar que a função `readLine()` retorna um objeto do tipo `String?`, que pode ser nulo (`null`) se o usuário pressionar Enter sem digitar nada. Portanto, é necessário fazer verificações para lidar com entradas inválidas ou nulas.
+
+Ao executar o código, ele irá solicitar ao usuário que digite os valores desejados e em seguida imprimirá os valores lidos na saída.
+
+## 2) ESTRUTURA CONDICIONAL: 
+### ESTRUTURA IF-ELSE:
 A estrutura "if-else" é usada para executar um bloco de código condicionalmente, com base em uma condição booleana.
 ````kotlin
 fun main() {
@@ -79,7 +178,7 @@ fun main() {
 ````
 Neste exemplo, verificamos se a variável "idade" é maior ou igual a 18. Se for verdadeiro, a mensagem "Você é maior de idade" será exibida. Caso contrário, a mensagem "Você é menor de idade" será exibida.
 
-### 2) ESTRUTURA WHEN:
+### ESTRUTURA WHEN:
 A estrutura "when" é uma alternativa ao "switch" em outras linguagens de programação. Ela permite realizar várias verificações em uma expressão.
 ````kotlin
 fun main() {
@@ -99,9 +198,7 @@ fun main() {
 Neste exemplo, com base no valor da variável "diaSemana", o bloco correspondente será executado. Se o valor for 1, será impresso "Domingo", se for 2, será impresso "Segunda-feira" e assim por diante. Se o valor não corresponder a nenhuma das opções, o bloco "else" será executado e imprimirá "Dia inválido". Além disso, as estruturas condicionais em Kotlin também podem ser aninhadas, permitindo uma lógica condicional mais complexa, se necessário.
 
 ## 3) ESTRUTURA DE REPETIÇÃO:
-Em Kotlin, existem três principais estruturas de repetição: "for", "while" e "do-while".
-
-### 1) ESTRUTURA FOR:
+### ESTRUTURA FOR:
 A estrutura "for" é usada para iterar sobre uma sequência de elementos, como um intervalo numérico ou uma coleção.
 ````kotlin
 fun main() {
@@ -112,7 +209,7 @@ fun main() {
 ````
 Neste exemplo, o loop "for" itera sobre um intervalo de números de 1 a 5. A cada iteração, o valor de "i" é atualizado e impresso na saída.
 
-### 2) ESTRUTURA WHILE:
+### ESTRUTURA WHILE:
 A estrutura "while" é usada quando você deseja repetir um bloco de código enquanto uma condição booleana for verdadeira.
 ````kotlin
 fun main() {
@@ -125,7 +222,7 @@ fun main() {
 ````
 Neste exemplo, o loop "while" repete o bloco de código enquanto a variável "contador" for menor que 5. A cada iteração, o valor de "contador" é impresso e incrementado.
 
-### 3) ESTRUTURA DO-WHILE:
+### ESTRUTURA DO-WHILE:
 A estrutura "do-while" é semelhante à estrutura "while", mas garante que o bloco de código seja executado pelo menos uma vez, mesmo que a condição seja falsa.
 ````kotlin
 fun main() {
@@ -140,7 +237,7 @@ fun main() {
 Neste exemplo, o loop "do-while" executa o bloco de código pelo menos uma vez, independentemente da condição. Em seguida, verifica a condição e continua repetindo o bloco até que a condição seja falsa. É importante garantir que a condição em uma estrutura de repetição eventualmente se torne falsa para evitar loops infinitos. Além disso, você pode usar as palavras-chave "break" e "continue" para controlar o fluxo de execução dentro dos loops, permitindo que você saia antecipadamente ou pule para a próxima iteração, respectivamente.
 
 ## 4) VARIAVEIS COMPOSTAS:
-### 1) ARRAYS:
+### ARRAYS:
 Os arrays em Kotlin são estruturas de dados que armazenam um conjunto fixo de elementos do mesmo tipo. Eles são usados para armazenar e acessar elementos de forma indexada.
 ````kotlin
 fun main() {
@@ -162,7 +259,7 @@ fun main() {
 ````
 Nesse exemplo, declaramos um array chamado "numeros" que contém os números de 1 a 5. Podemos acessar os elementos do array usando o operador de indexação [], onde 0 é a primeira posição. Também é possível modificar o valor de um elemento do array atribuindo um novo valor a ele. Além disso, podemos iterar sobre os elementos do array usando um loop for-in.
 
-### 2) LISTAS:
+### LISTAS:
 As listas em Kotlin são semelhantes aos arrays, mas têm tamanho flexível e oferecem mais recursos de manipulação de elementos. Elas são implementadas pela classe List e podem armazenar elementos de tipos diferentes.
 ````kotlin
 fun main() {
@@ -181,7 +278,7 @@ fun main() {
 ````
 Nesse exemplo, declaramos uma lista chamada "frutas" que contém três elementos de tipo String. Podemos acessar os elementos da lista da mesma forma que em um array e também usar um loop for-in para iterar sobre eles. No entanto, como as listas têm tamanho flexível, não podemos modificar os elementos após a criação da lista.
 
-### 3) MAPAS (DICIONARIOS):
+### MAPAS (DICIONARIOS):
 Os mapas em Kotlin são coleções de pares de chave-valor, onde cada chave é única e associada a um valor. Eles são implementados pela classe Map.
 ````kotlin
 fun main() {
