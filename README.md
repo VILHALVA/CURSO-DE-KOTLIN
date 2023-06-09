@@ -48,7 +48,7 @@
 # 🤳SINTAXE DA LINGUAGEM:
 ## 1) VARIAVEIS SIMPLES:
 Em Kotlin, as variáveis simples são declaradas usando a palavra-chave "var" para variáveis mutáveis (que podem ter seu valor alterado) ou "val" para variáveis imutáveis (que têm um valor atribuído e não podem ser alteradas posteriormente). Aqui está um exemplo de declaração de variáveis simples em Kotlin:
-````
+````kotlin
 fun main() {
     // Variável mutável
     var idade: Int = 25
@@ -66,7 +66,7 @@ Nesse exemplo, declaramos uma variável mutável chamada "idade" do tipo "Int" e
 Em Kotlin, a estrutura condicional é semelhante a outras linguagens de programação, como Java. Existem duas principais estruturas condicionais: "if-else" e "when". 
 ### 1) ESTRUTURA IF-ELSE:
 A estrutura "if-else" é usada para executar um bloco de código condicionalmente, com base em uma condição booleana.
-````
+````kotlin
 fun main() {
     val idade = 18
     if (idade >= 18) {
@@ -76,13 +76,12 @@ fun main() {
         println("Você é menor de idade.")
     }
 }
-
 ````
 Neste exemplo, verificamos se a variável "idade" é maior ou igual a 18. Se for verdadeiro, a mensagem "Você é maior de idade" será exibida. Caso contrário, a mensagem "Você é menor de idade" será exibida.
 
 ### 2) ESTRUTURA WHEN:
 A estrutura "when" é uma alternativa ao "switch" em outras linguagens de programação. Ela permite realizar várias verificações em uma expressão.
-````
+````kotlin
 fun main() {
     val diaSemana = 3
     when (diaSemana) {
@@ -104,7 +103,7 @@ Em Kotlin, existem três principais estruturas de repetição: "for", "while" e 
 
 ### 1) ESTRUTURA FOR:
 A estrutura "for" é usada para iterar sobre uma sequência de elementos, como um intervalo numérico ou uma coleção.
-````
+````kotlin
 fun main() {
     for (i in 1..5) {
         println("Número: $i")
@@ -115,7 +114,7 @@ Neste exemplo, o loop "for" itera sobre um intervalo de números de 1 a 5. A cad
 
 ### 2) ESTRUTURA WHILE:
 A estrutura "while" é usada quando você deseja repetir um bloco de código enquanto uma condição booleana for verdadeira.
-````
+````kotlin
 fun main() {
     var contador = 0
     while (contador < 5) {
@@ -126,9 +125,9 @@ fun main() {
 ````
 Neste exemplo, o loop "while" repete o bloco de código enquanto a variável "contador" for menor que 5. A cada iteração, o valor de "contador" é impresso e incrementado.
 
-### 3) ESTRUTURA DO WHILE:
+### 3) ESTRUTURA DO-WHILE:
 A estrutura "do-while" é semelhante à estrutura "while", mas garante que o bloco de código seja executado pelo menos uma vez, mesmo que a condição seja falsa.
-````
+````kotlin
 fun main() {
     var contador = 0
     do {
@@ -143,7 +142,7 @@ Neste exemplo, o loop "do-while" executa o bloco de código pelo menos uma vez, 
 ## 4) VARIAVEIS COMPOSTAS:
 ### 1) ARRAYS:
 Os arrays em Kotlin são estruturas de dados que armazenam um conjunto fixo de elementos do mesmo tipo. Eles são usados para armazenar e acessar elementos de forma indexada.
-````
+````kotlin
 fun main() {
     // Declaração de um array de números inteiros
     val numeros = arrayOf(1, 2, 3, 4, 5)
@@ -165,7 +164,7 @@ Nesse exemplo, declaramos um array chamado "numeros" que contém os números de 
 
 ### 2) LISTAS:
 As listas em Kotlin são semelhantes aos arrays, mas têm tamanho flexível e oferecem mais recursos de manipulação de elementos. Elas são implementadas pela classe List e podem armazenar elementos de tipos diferentes.
-````
+````kotlin
 fun main() {
     // Declaração de uma lista de strings
     val frutas = listOf("Maçã", "Banana", "Laranja")
@@ -184,7 +183,7 @@ Nesse exemplo, declaramos uma lista chamada "frutas" que contém três elementos
 
 ### 3) MAPAS (DICIONARIOS):
 Os mapas em Kotlin são coleções de pares de chave-valor, onde cada chave é única e associada a um valor. Eles são implementados pela classe Map.
-````
+````kotlin
 fun main() {
     // Declaração de um mapa de capitais
     val capitais = mapOf("Brasil" to "Brasília", "EUA" to "Washington D.C.", "França" to "Paris")
@@ -203,7 +202,7 @@ Nesse exemplo, declaramos um mapa chamado "capitais" que mapeia nomes de países
 
 ## 5) FUNÇÕES:
 Em Kotlin, as funções são blocos de código que podem ser chamados e executados em determinados pontos do programa. Elas são definidas usando a palavra-chave fun. Vou mostrar um exemplo básico de uma função em Kotlin:
-````
+````kotlin
 fun main() {
     // Chamando a função saudacao()
     saudacao()
@@ -215,7 +214,7 @@ fun saudacao() {
 }
 ````
 Neste exemplo, temos uma função chamada saudacao() que imprime a mensagem "Olá, mundo!". No main(), chamamos essa função para que seja executada. Ao executar o programa, a saída será "Olá, mundo!". As funções em Kotlin também podem receber argumentos e retornar valores. Vamos ver um exemplo mais completo:
-````
+````kotlin
 fun main() {
     val resultado = somar(3, 5)
     println("Resultado da soma: $resultado")
@@ -229,7 +228,7 @@ Neste exemplo, temos uma função somar() que recebe dois argumentos do tipo Int
 
 ## 6) CLASS POO:
 Class com todos os 4 pilares da programação orientada a objetos: encapsulamento, herança, polimorfismo e abstração:
-````
+````kotlin
 // Classe base
 open class Animal(val nome: String) {
     open fun fazerBarulho() {
