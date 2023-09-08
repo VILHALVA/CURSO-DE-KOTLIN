@@ -27,6 +27,10 @@
 * ✅ TRATAMENTO DE EXCEÇÕES
 * ✅ BÔNUS: ENTRADA DE DADOS (INPUT)
 
+# 📹VIDEOS DO YOUTUBE:
+* [FUNÇÃO MEDIA EM KOTLIN](https://youtu.be/udNwy5u66GM?si=tAlu_iAPKIsQaTHS)
+* [CLASS POO MEDIA EM KOTLIN](https://youtu.be/1lq42F2woZc?si=BEVx5bEW1H8qOq4b)
+
 ![](https://i.imgur.com/waxVImv.png)
 # 👀VISÃO PANORÂMICA:
 | PERGUNTA | RESPOSTA |
