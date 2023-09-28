@@ -9,7 +9,7 @@
 <img src="https://jaki-jezyk-programowania.pl/img/technologies/kotlin.png" align="center" width="250"> <br>
 
 # 😎REQUESITOS:
-* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-ALGORITMO)
+* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL)
 * 💻[USAR A IDE ONLINE](https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS44LjIxIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoicGFja2FnZSBvcmcua290bGlubGFuZy5wbGF5IFxuXG5mdW4gbWFpbigpIHtcbiAgIFxufSJ9)
 
 # [BASICO E POO](https://www.youtube.com/playlist?list=PLmcyA-BbqsvJnOZoGNHPMF1dCBq0m6Qzg)
