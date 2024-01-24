@@ -2,16 +2,8 @@
 👨‍⚖️KOTLIN É UMA LINGUAGEM DE PROGRAMAÇÃO.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=Kotlin)
-
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://kotlinlang.org/docs/home.html) <br>
-
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://kotlinlang.org/docs/home.html)
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://www.youtube.com/playlist?list=PLmcyA-BbqsvJnOZoGNHPMF1dCBq0m6Qzg)
-
-<img src="https://jaki-jezyk-programowania.pl/img/technologies/kotlin.png" align="center" width="250"> <br>
-
-
-![](https://i.imgur.com/waxVImv.png)
 
 # 👀VISÃO PANORÂMICA:
 | PERGUNTA | RESPOSTA |
